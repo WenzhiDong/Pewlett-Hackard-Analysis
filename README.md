@@ -46,4 +46,7 @@ There are in total 90398 people who will retire soon, so the same amount of new 
 
 ![numbers_retirement](numbers_retirement.png)
 
+There are only in total 1940 eligible mentors, which may not enough to teach the next generation of employees
+
+![mentor](number_mentors.png)
 
