@@ -42,5 +42,8 @@ Using the same method, I created the second table:
 ![mentorship-eligibility](table2.png)
 
 ## Summary 
-There are in total
+There are in total 90398 people who will retire soon, so the same amount of new employees are needed.
+
 ![numbers_retirement](numbers_retirement.png)
+
+
