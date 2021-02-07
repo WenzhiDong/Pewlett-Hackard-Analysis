@@ -2,7 +2,7 @@
 
 
 ## Overview of the analysis
-In this module, I created an ERD diagram and the database：
+I created an ERD diagram and the database showing below：
 
 ![schema](QuickDBD-export.png)
 
@@ -11,14 +11,14 @@ In this project, I will use query language to
 - create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
 ## Result
-To create these two tables, I  
+To create these two tables, I will
 - use "inner join" to join two tables
 - use "into" to save tables
 - use "distinct on" to remove duplicated employees because some employees switch titles over years
 - use "order by" to sort the data
 - use group by to show the number of employees in each department
 
-### Retirement Titles
+### Retirement Titles Table
 Before deleting duplicated rows, the table is like below:
 
 ![before](before_distinct_on.png)
@@ -30,6 +30,11 @@ With "dinstinct on", duplicated items are deleted:
 The group_by table looks like":
 
 ![groupby](groupby.png)
+
+### mentorship-eligibility Table
+Using the same method, I created the second table:
+
+![mentorship-eligibility](table2.png)
 
 ## Summary 
 
