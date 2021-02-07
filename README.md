@@ -2,7 +2,12 @@
 
 
 ## Overview of the analysis
-I created an ERD diagram and the database showing below：
+Pewlett Hackard is a big company. They want to find 
+- who will be retired next years?
+- how many positions need to be filled?
+
+
+Using the csv files they provided, I created an ERD diagram and the database showing below：
 
 ![schema](QuickDBD-export.png)
 
@@ -19,15 +24,15 @@ To create these two tables, I will
 - use group by to show the number of employees in each department
 
 ### Retirement Titles Table
-Before deleting duplicated rows, the table is like below:
+Without deleting duplicated rows, the table is saved as retirement_titles.csv and it is like below:
 
 ![before](before_distinct_on.png)
 
-With "dinstinct on", duplicated items are deleted:
+After "dinstinct on", duplicated items are deleted and the data is saved as unique_titles.csv:
 
 ![after](after_distinct_on.png)
 
-The group_by table looks like":
+The group_by table is saved as retiring_titles.csv and it looks like:
 
 ![groupby](groupby.png)
 
@@ -37,4 +42,5 @@ Using the same method, I created the second table:
 ![mentorship-eligibility](table2.png)
 
 ## Summary 
-
+There are in total
+![numbers_retirement](numbers_retirement.png)
