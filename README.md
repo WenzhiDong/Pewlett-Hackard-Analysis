@@ -4,7 +4,7 @@
 ## Overview of the analysi
 In this module, I created an ERD diagram and the database：
 
-![schema][QuickDBD-export.png]
+![schema](QuickDBD-export.png)
 
 ## Result
 
