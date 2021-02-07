@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 
 
-## Overview of the analysi
+## Overview of the analysis
 In this module, I created an ERD diagram and the database：
 
 ![schema](QuickDBD-export.png)
@@ -20,12 +20,15 @@ To create these two tables, I
 
 ### Retirement Titles
 Before deleting duplicated rows, the table is like below:
+
 ![before](before_distinct_on.png)
 
 With "dinstinct on", duplicated items are deleted:
+
 ![after](after_distinct_on.png)
 
 The group_by table looks like":
+
 ![groupby](groupby.png)
 
 ## Summary 
